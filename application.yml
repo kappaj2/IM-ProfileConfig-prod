@@ -5,11 +5,20 @@
 # Property used on app startup to check the config server status
 configserver:
     name: IncidentManager config server
-    status: Connected to the IncidentManager Production config server, using https://github.com/kappaj2/incidentman-prod-config.git !
+    status: Connected to the IncidentManager Production config server, using https://github.com/kappaj2/IM-ProfileConfig-prod.git !
 
 # Default JWT secret token (to be changed in production!)
 jhipster:
     security:
         authentication:
             jwt:
-		secret: production-secret-token-incidentman
+		        secret: production-secret-token-incidentman
+		
+#
+#                
+# This configuration is the same for all the modules at the moment                
+#
+application:
+    restTemplateConfig:
+        readTimeout: 350
+        connectTimeout: 550
