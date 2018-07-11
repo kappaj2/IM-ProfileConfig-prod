@@ -1,6 +1,6 @@
 spring:
     application:
-        name: InventoryModule
+        name: inventorymodule
         
 jhipster:        
     registry:

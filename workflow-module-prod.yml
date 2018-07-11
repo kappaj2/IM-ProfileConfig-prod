@@ -1,6 +1,6 @@
 spring:
     application:
-        name: WorkflowEngineModule
+        name: workflowmodule
         
 jhipster:        
     registry:

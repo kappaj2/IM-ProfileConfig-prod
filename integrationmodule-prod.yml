@@ -1,6 +1,6 @@
 spring:
     application:
-        name: IntegrationModule
+        name: integrationmodule
         
 jhipster:        
     registry:
